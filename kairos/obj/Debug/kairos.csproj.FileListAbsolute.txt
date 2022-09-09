@@ -13,3 +13,5 @@ C:\Users\Администратор\source\repos\kairos\kairos\obj\Debug\kairos.
 C:\Users\Администратор\source\repos\kairos\kairos\obj\Debug\kairos.csproj.CoreCompileInputs.cache
 C:\Users\Администратор\source\repos\kairos\kairos\obj\Debug\kairos.exe
 C:\Users\Администратор\source\repos\kairos\kairos\obj\Debug\kairos.pdb
+C:\Users\Администратор\source\repos\kairos\kairos\obj\Debug\Otrasl.g.cs
+C:\Users\Администратор\source\repos\kairos\kairos\obj\Debug\Otrasl.baml

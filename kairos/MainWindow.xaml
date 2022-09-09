@@ -6,21 +6,27 @@
         xmlns:local="clr-namespace:kairos"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Grid.Column="0">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid Grid.Column="0" Background="BurlyWood"></Grid>
-        <Button Click="cat" VerticalAlignment="Center" Height="47" Width="140" Background="Beige"></Button>
-        <Grid Grid.Column="1" Background="White"></Grid>
+        <Button Click="cat" VerticalAlignment="Center" Height="47" Width="140" Background="Beige" >информация </Button>
+        <Grid Grid.Column="1" Background="White">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label  FontSize="40" Margin="10" FontWeight="SemiBold" Content="Text"></Label>
+            <Grid  Background="Green" Height="15" VerticalAlignment="Bottom" Margin="10"></Grid>
+            <Frame Grid.Row="1" x:Name="MainFrame"></Frame>
+            <Label Grid.Row="1" Foreground="Chocolate" FontSize="24" FontFamily="Showcard Gothic"/>
+            <Label Foreground="Chocolate" FontSize="24" FontFamily="Showcard Gothic" HorizontalAlignment="Center" VerticalAlignment="Center" Height="100" Width="330" Grid.Row="1">Машина для каждого кота!</Label>
+        </Grid>
         <Image  Grid.Column="0" Source="pisya.jpg" VerticalAlignment="Top"/>
-        <TextBlock>KARIOS co.</TextBlock>
-        <Label Grid.Column="1" Foreground="Chocolate" FontSize="24" FontFamily="Showcard Gothic"/>
-        <TextBlock>KARIOS co.</TextBlock>
-        <Label Grid.Column="1" Foreground="Chocolate" FontSize="24" FontFamily="Showcard Gothic" HorizontalAlignment="Center" VerticalAlignment="Center" Height="100" Width="330" Grid.Row="1"> Машина для каждого кота!</Label>
-        <TextBlock HorizontalAlignment="Right" Width="150">KARIOS co.</TextBlock>
-        <Label Grid.Column="1" Foreground="Chocolate" FontSize="24" FontFamily="Showcard Gothic" HorizontalAlignment="Center" VerticalAlignment="Center" Height="50" Width="330" Margin="156,210,156,159"></Label>
-       
+        <TextBlock VerticalAlignment="Bottom">KARIOS co.</TextBlock>
+        
     </Grid>
+    
 </Window>
