@@ -24,5 +24,10 @@ namespace kairos
         {
             InitializeComponent();
         }
+
+        private void cat(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

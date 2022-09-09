@@ -95,10 +95,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="243854905006212.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="2de0e979268b170644f67b281f1d70d2.jpg" />
+    <Resource Include="pisya.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
