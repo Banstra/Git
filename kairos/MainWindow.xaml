@@ -12,13 +12,15 @@
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid Grid.Column="0" Background="BurlyWood"></Grid>
+        <Button Click="cat" VerticalAlignment="Center" Height="47" Width="140" Background="Beige"></Button>
         <Grid Grid.Column="1" Background="White"></Grid>
-        <Image x:Name="_2de0e979268b170644f67b281f1d70d2_jpg" Grid.Column="0" Source="2de0e979268b170644f67b281f1d70d2.jpg" VerticalAlignment="Top"/>
+        <Image x:Name="pisya.jpg" Grid.Column="0" Source="pisya.jpg" VerticalAlignment="Top"/>
         <TextBlock>KARIOS co.</TextBlock>
-        <Label Grid.Column="1" Foreground="Chocolate" FontSize="24" FontFamily="Showcard Gothic">KAIROS co.</Label>
+        <Label Grid.Column="1" Foreground="Chocolate" FontSize="24" FontFamily="Showcard Gothic"/>
         <TextBlock>KARIOS co.</TextBlock>
         <Label Grid.Column="1" Foreground="Chocolate" FontSize="24" FontFamily="Showcard Gothic" HorizontalAlignment="Center" VerticalAlignment="Center" Height="100" Width="330" Grid.Row="1"> Машина для каждого кота!</Label>
         <TextBlock>KARIOS co.</TextBlock>
         <Label Grid.Column="1" Foreground="Chocolate" FontSize="24" FontFamily="Showcard Gothic" HorizontalAlignment="Center" VerticalAlignment="Center" Height="50" Width="330" Margin="156,210,156,159"></Label>
+       
     </Grid>
 </Window>
