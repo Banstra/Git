@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +24,11 @@ namespace kairos
         public Otrasl()
         {
             InitializeComponent();
+        }
+
+        private void cat2(object sender, RoutedEventArgs e)
+        {
+            Process.Start("https://banstra.github.io/iiCars/");
         }
     }
 }

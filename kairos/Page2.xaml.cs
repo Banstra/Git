@@ -17,29 +17,18 @@ using System.Windows.Shapes;
 namespace kairos
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Page2.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Page2 : Page
     {
-        public MainWindow()
+        public Page2()
         {
             InitializeComponent();
         }
 
-        private void cat(object sender, RoutedEventArgs e)
+        private void cat3(object sender, RoutedEventArgs e)
         {
-            
-                MainFrame.NavigationService.Navigate(new Otrasl());
-                Manager.MainFrame = MainFrame;
-     
-        }
-        private void cat1(object sender, RoutedEventArgs e)
-        {
-
-            MainFrame.NavigationService.Navigate(new Page2());
-            
-
+            Process.Start("https://banstra.github.io/iiCars/");
         }
     }
-   
 }

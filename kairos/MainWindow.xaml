@@ -12,21 +12,27 @@
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid Grid.Column="0" Background="BurlyWood"></Grid>
-        <Button Click="cat" VerticalAlignment="Center" Height="47" Width="140" Background="Beige" >информация </Button>
+        <Button Click="cat" VerticalAlignment="Center" Height="47" Width="140" Background="Beige" >информация</Button>
+        <Button Click="cat1" VerticalAlignment="Bottom" Height="47" Width="140" Background="Beige"   >СИЗ</Button>
+        
         <Grid Grid.Column="1" Background="White">
             <Grid.RowDefinitions>
-                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition Height="250"></RowDefinition>
                 <RowDefinition Height="*"></RowDefinition>
             </Grid.RowDefinitions>
-            <Label  FontSize="40" Margin="10" FontWeight="SemiBold" Content="Text"></Label>
-            <Grid  Background="Green" Height="15" VerticalAlignment="Bottom" Margin="10"></Grid>
+            <Label  FontSize="19" Margin="10" VerticalContentAlignment="Top" FontWeight="SemiBold" Content="Мы занимаемся машиностроением и строим машины для котов."/>
+            <Label  FontSize="19" Margin="10" VerticalContentAlignment="Center" FontWeight="SemiBold" Content="Структура цеха - машиностроение."/>
+            <Label  FontSize="15" Margin="20" VerticalContentAlignment="Bottom" FontWeight="SemiBold"  Content="Мы занимаемся полной конструкцией машин от закупки материалов до выпуска"/>
+            <TextBlock FontSize="20"/>
+            <Grid  Background="Green" Height="10" VerticalAlignment="Bottom" Margin="10"></Grid>
             <Frame Grid.Row="1" x:Name="MainFrame"></Frame>
             <Label Grid.Row="1" Foreground="Chocolate" FontSize="24" FontFamily="Showcard Gothic"/>
-            <Label Foreground="Chocolate" FontSize="24" FontFamily="Showcard Gothic" HorizontalAlignment="Center" VerticalAlignment="Center" Height="100" Width="330" Grid.Row="1">Машина для каждого кота!</Label>
+           
         </Grid>
         <Image  Grid.Column="0" Source="pisya.jpg" VerticalAlignment="Top"/>
         <TextBlock VerticalAlignment="Bottom">KARIOS co.</TextBlock>
-        
+
+
     </Grid>
-    
+
 </Window>

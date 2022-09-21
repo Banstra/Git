@@ -1,7 +1,6 @@
 C:\Users\Администратор\source\repos\kairos\kairos\bin\Debug\kairos.exe.config
 C:\Users\Администратор\source\repos\kairos\kairos\bin\Debug\kairos.exe
 C:\Users\Администратор\source\repos\kairos\kairos\bin\Debug\kairos.pdb
-C:\Users\Администратор\source\repos\kairos\kairos\obj\Debug\kairos.csproj.AssemblyReference.cache
 C:\Users\Администратор\source\repos\kairos\kairos\obj\Debug\MainWindow.g.cs
 C:\Users\Администратор\source\repos\kairos\kairos\obj\Debug\App.g.cs
 C:\Users\Администратор\source\repos\kairos\kairos\obj\Debug\kairos_MarkupCompile.cache
@@ -15,3 +14,7 @@ C:\Users\Администратор\source\repos\kairos\kairos\obj\Debug\kairos.
 C:\Users\Администратор\source\repos\kairos\kairos\obj\Debug\kairos.pdb
 C:\Users\Администратор\source\repos\kairos\kairos\obj\Debug\Otrasl.g.cs
 C:\Users\Администратор\source\repos\kairos\kairos\obj\Debug\Otrasl.baml
+C:\Users\Администратор\source\repos\kairos\kairos\obj\Debug\Page1.g.cs
+C:\Users\Администратор\source\repos\kairos\kairos\obj\Debug\Page1.baml
+C:\Users\Администратор\source\repos\kairos\kairos\obj\Debug\Page2.g.cs
+C:\Users\Администратор\source\repos\kairos\kairos\obj\Debug\Page2.baml
