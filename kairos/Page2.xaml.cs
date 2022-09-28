@@ -30,5 +30,10 @@ namespace kairos
         {
             Process.Start("https://banstra.github.io/iiCars/");
         }
+
+        private void SIZ(object sender, RoutedEventArgs e)
+        {
+            Process.Start("https://demo.roboflow.com/ai-fswt8/1?publishable_key=rf_wnouWHH6xeUBMtzm5Ej7cicEYat2");
+        }
     }
 }
