@@ -18,3 +18,4 @@ C:\Users\Администратор\source\repos\kairos\kairos\obj\Debug\Page1.g
 C:\Users\Администратор\source\repos\kairos\kairos\obj\Debug\Page1.baml
 C:\Users\Администратор\source\repos\kairos\kairos\obj\Debug\Page2.g.cs
 C:\Users\Администратор\source\repos\kairos\kairos\obj\Debug\Page2.baml
+C:\Users\Администратор\source\repos\kairos\kairos\obj\Debug\kairos.csproj.AssemblyReference.cache

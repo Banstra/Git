@@ -33,12 +33,18 @@ namespace kairos
                 Manager.MainFrame = MainFrame;
      
         }
-        private void cat1(object sender, RoutedEventArgs e)
+       
+
+        private void SIZ(object sender, RoutedEventArgs e)
         {
+            Process.Start("https://demo.roboflow.com/ai-fswt8/1?publishable_key=rf_wnouWHH6xeUBMtzm5Ej7cicEYat2");
+        }
 
-            MainFrame.NavigationService.Navigate(new Page2());
-            
-
+        private void help(object sender, RoutedEventArgs e)
+        {
+            NavigationWindow navWIN = new NavigationWindow();
+            navWIN.Content = new Page2();
+            navWIN.Show();
         }
     }
    
