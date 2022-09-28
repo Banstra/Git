@@ -10,14 +10,11 @@
 
     <Grid>
   
-        <ScrollViewer Height="500" Grid.Row="0" VerticalAlignment="Top">
-            <ScrollViewer.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="White" Offset="0"/>
-                    <GradientStop Color="White" Offset="1"/>
-                </LinearGradientBrush>
-            </ScrollViewer.Background>
-            <TextBlock  TextWrapping="Wrap" Text="Под техникой безопасности подразумевается комплекс мероприятий 
+        
+        <FlowDocumentReader Background="Wheat" Height="600">
+            <FlowDocument IsColumnWidthFlexible="True" ColumnGap="10" Background="Beige">
+                <Paragraph TextAlignment="Left" FontSize="15">
+                    "Под техникой безопасности подразумевается комплекс мероприятий 
 технического и организационного характера, направленных на создание безопасных 
 условий труда и предотвращение несчастных случаев на производстве. 
 На любом предприятии принимаются меры к тому, чтобы труд работающих был 
@@ -184,8 +181,11 @@
 асбестом; 
 после окончания сварочных работ следует тщательно проверять помещение и 
 зону, где проводились сварочные работы, и не оставлять открытого пламени и 
-тлеющих предметов." Height="1225"/>
-        </ScrollViewer>
-        <Button Click="SIZ"  Height="47" Width="140" Background="Beige" VerticalAlignment="Bottom" Margin="100"  >СИЗ</Button>
+тлеющих предметов."
+                </Paragraph>
+            </FlowDocument>
+            
+        </FlowDocumentReader>
+        <Button Click="SIZ" Background="Beige" VerticalAlignment="Top">СИЗ</Button>
     </Grid>
 </Page>
